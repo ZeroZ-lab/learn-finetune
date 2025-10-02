@@ -12,6 +12,7 @@
 - ab_test.md：A/B 实验设计要点与流程。
 - gray_release_plan.md：灰度发布与回滚预案模板。
 - cost_model.py：月度 Token/存储/推理成本模型示例。
+- job-prep.md：求职资产打包与面试准备清单。
 
 运行示例
 ```
@@ -49,3 +50,4 @@ python modules/module-08-business/cost_model.py --req-per-day 2000 --avg-tokens 
 - lessons/04-gray-release.md：灰度发布与回滚
 - lessons/05-costs.md：成本模型与优化
 - lessons/06-capstone.md：Capstone 与复盘
+- job-prep.md：结合项目成果的求职指南

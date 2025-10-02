@@ -56,5 +56,7 @@ python finetune_lora.py \
 - lessons/01-data-cleaning.md：数据清洗与模板化
 - lessons/02-lora-theory.md：LoRA/QLoRA 原理
 - lessons/03-train-run.md：训练脚本运行与监控
-- lessons/04-eval.md：评测与对比
+- lessons/04-eval.md：评测与对比（结合 `evaluate_model.py` 实战）
 - lessons/05-quantization.md：量化与本地推理
+- evaluate_model.py：PPL + Exact Match 评测脚本，支持导出预测报告
+- data/eval_sample.jsonl：评测数据格式示例
