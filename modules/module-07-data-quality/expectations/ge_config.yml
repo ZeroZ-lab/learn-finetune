@@ -1,0 +1,14 @@
+# 占位：Great Expectations 配置（可选）
+datasource: your-datasource
+expectations:
+  - name: no-null-instruction
+    type: expect_column_values_to_not_be_null
+    params:
+      column: instruction
+  - name: length-between
+    type: expect_column_value_lengths_to_be_between
+    params:
+      column: output
+      min_value: 10
+      max_value: 2048
+
